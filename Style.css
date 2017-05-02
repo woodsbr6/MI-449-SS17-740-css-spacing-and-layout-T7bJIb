@@ -1,32 +1,47 @@
+body {
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .container {
   display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
 }
 
-.art {
-  margin: 5px;
-  flex-grow: 1;
-}
-
-.city-description {
-  text-align: center;
-  color: green;
-  font-size: 18px;
+section {
+  flex-basis: 200px;
+  margin: 0 auto 25px;
+  background-color: white;
 }
 
 header {
   color: white;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  flex-grow: 3;
-}
-
-section {
-  background-color: white;
 }
 
 h1 {
   text-align: center;
   text-decoration: line-through;
+}
+
+h2 {
+  color: red;
+  padding-bottom: 15px;
+  border-bottom: 2px solid blue;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+.software {
+  text-align: center;
+  color: green;
+  font-size: 18px;
 }
 
 .Blue {
@@ -43,25 +58,6 @@ h1 {
 
 .tagline {
   text-align: center;
-}
-
-h2 {
-  color: red;
-  padding-bottom: 15px;
-  border-bottom: 2px solid blue;
-}
-
-body {
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
-}
-
-a {
-  color: blue;
-}
-
-a:hover {
-  color: red;
 }
 
 img {
